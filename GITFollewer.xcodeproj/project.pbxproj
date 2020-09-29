@@ -10,11 +10,10 @@
 		CFFD6145252390CC00B5E520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6144252390CC00B5E520 /* AppDelegate.swift */; };
 		CFFD6147252390CC00B5E520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6146252390CC00B5E520 /* SceneDelegate.swift */; };
 		CFFD6149252390CC00B5E520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6148252390CC00B5E520 /* ViewController.swift */; };
-		CFFD614C252390CC00B5E520 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFD614A252390CC00B5E520 /* Main.storyboard */; };
 		CFFD614E252390CD00B5E520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFD614D252390CD00B5E520 /* Assets.xcassets */; };
 		CFFD6151252390CD00B5E520 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFFD614F252390CD00B5E520 /* LaunchScreen.storyboard */; };
-		CFFD615C252390CE00B5E520 /* GITFollewerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD615B252390CE00B5E520 /* GITFollewerTests.swift */; };
-		CFFD6167252390CE00B5E520 /* GITFollewerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6166252390CE00B5E520 /* GITFollewerUITests.swift */; };
+		CFFD61842523961F00B5E520 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD61832523961F00B5E520 /* SearchViewController.swift */; };
+		CFFD61892523966000B5E520 /* FavoritesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD61882523966000B5E520 /* FavoritesListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +38,13 @@
 		CFFD6144252390CC00B5E520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFFD6146252390CC00B5E520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CFFD6148252390CC00B5E520 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CFFD614B252390CC00B5E520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CFFD614D252390CD00B5E520 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CFFD6150252390CD00B5E520 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CFFD6152252390CD00B5E520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFFD6157252390CE00B5E520 /* GITFollewerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GITFollewerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFFD615B252390CE00B5E520 /* GITFollewerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GITFollewerTests.swift; sourceTree = "<group>"; };
-		CFFD615D252390CE00B5E520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CFFD6162252390CE00B5E520 /* GITFollewerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GITFollewerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CFFD6166252390CE00B5E520 /* GITFollewerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GITFollewerUITests.swift; sourceTree = "<group>"; };
-		CFFD6168252390CE00B5E520 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFFD61832523961F00B5E520 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		CFFD61882523966000B5E520 /* FavoritesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +76,6 @@
 			isa = PBXGroup;
 			children = (
 				CFFD6143252390CB00B5E520 /* GITFollewer */,
-				CFFD615A252390CE00B5E520 /* GITFollewerTests */,
-				CFFD6165252390CE00B5E520 /* GITFollewerUITests */,
 				CFFD6142252390CB00B5E520 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -102,30 +96,13 @@
 				CFFD6144252390CC00B5E520 /* AppDelegate.swift */,
 				CFFD6146252390CC00B5E520 /* SceneDelegate.swift */,
 				CFFD6148252390CC00B5E520 /* ViewController.swift */,
-				CFFD614A252390CC00B5E520 /* Main.storyboard */,
 				CFFD614D252390CD00B5E520 /* Assets.xcassets */,
 				CFFD614F252390CD00B5E520 /* LaunchScreen.storyboard */,
 				CFFD6152252390CD00B5E520 /* Info.plist */,
+				CFFD61832523961F00B5E520 /* SearchViewController.swift */,
+				CFFD61882523966000B5E520 /* FavoritesListViewController.swift */,
 			);
 			path = GITFollewer;
-			sourceTree = "<group>";
-		};
-		CFFD615A252390CE00B5E520 /* GITFollewerTests */ = {
-			isa = PBXGroup;
-			children = (
-				CFFD615B252390CE00B5E520 /* GITFollewerTests.swift */,
-				CFFD615D252390CE00B5E520 /* Info.plist */,
-			);
-			path = GITFollewerTests;
-			sourceTree = "<group>";
-		};
-		CFFD6165252390CE00B5E520 /* GITFollewerUITests */ = {
-			isa = PBXGroup;
-			children = (
-				CFFD6166252390CE00B5E520 /* GITFollewerUITests.swift */,
-				CFFD6168252390CE00B5E520 /* Info.plist */,
-			);
-			path = GITFollewerUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,7 +210,6 @@
 			files = (
 				CFFD6151252390CD00B5E520 /* LaunchScreen.storyboard in Resources */,
 				CFFD614E252390CD00B5E520 /* Assets.xcassets in Resources */,
-				CFFD614C252390CC00B5E520 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,8 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CFFD61892523966000B5E520 /* FavoritesListViewController.swift in Sources */,
 				CFFD6149252390CC00B5E520 /* ViewController.swift in Sources */,
 				CFFD6145252390CC00B5E520 /* AppDelegate.swift in Sources */,
+				CFFD61842523961F00B5E520 /* SearchViewController.swift in Sources */,
 				CFFD6147252390CC00B5E520 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,7 +246,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFFD615C252390CE00B5E520 /* GITFollewerTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,7 +253,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CFFD6167252390CE00B5E520 /* GITFollewerUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,14 +272,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		CFFD614A252390CC00B5E520 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CFFD614B252390CC00B5E520 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CFFD614F252390CD00B5E520 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -446,7 +414,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lhj.GITFollewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -465,7 +433,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.lhj.GITFollewer;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
