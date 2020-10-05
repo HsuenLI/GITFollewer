@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF8A34C92524FA1100DA9554 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A34C82524FA1100DA9554 /* GFButton.swift */; };
+		CF9D7532252B762B003AA89C /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D7531252B762B003AA89C /* GFTextField.swift */; };
 		CFFD6145252390CC00B5E520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6144252390CC00B5E520 /* AppDelegate.swift */; };
 		CFFD6147252390CC00B5E520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6146252390CC00B5E520 /* SceneDelegate.swift */; };
 		CFFD6149252390CC00B5E520 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6148252390CC00B5E520 /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		CF8A34C82524FA1100DA9554 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		CF9D7531252B762B003AA89C /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		CFFD6141252390CB00B5E520 /* GITFollewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GITFollewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFD6144252390CC00B5E520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFFD6146252390CC00B5E520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -98,6 +100,7 @@
 				CFFD6144252390CC00B5E520 /* AppDelegate.swift */,
 				CFFD6146252390CC00B5E520 /* SceneDelegate.swift */,
 				CF8A34C82524FA1100DA9554 /* GFButton.swift */,
+				CF9D7531252B762B003AA89C /* GFTextField.swift */,
 				CFFD6148252390CC00B5E520 /* ViewController.swift */,
 				CFFD614D252390CD00B5E520 /* Assets.xcassets */,
 				CFFD614F252390CD00B5E520 /* LaunchScreen.storyboard */,
@@ -243,6 +246,7 @@
 				CFFD6145252390CC00B5E520 /* AppDelegate.swift in Sources */,
 				CFFD61842523961F00B5E520 /* SearchViewController.swift in Sources */,
 				CFFD6147252390CC00B5E520 /* SceneDelegate.swift in Sources */,
+				CF9D7532252B762B003AA89C /* GFTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
