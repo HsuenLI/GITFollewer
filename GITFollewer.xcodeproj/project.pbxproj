@@ -18,6 +18,8 @@
 		CF99687B253042A900F7A7BF /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF99687A253042A900F7A7BF /* User.swift */; };
 		CF99688125304A2000F7A7BF /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF99688025304A2000F7A7BF /* NetworkManager.swift */; };
 		CF99688A2530D9D000F7A7BF /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9968892530D9D000F7A7BF /* ErrorMessage.swift */; };
+		CF9968902530DF3200F7A7BF /* FollowerCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF99688F2530DF3200F7A7BF /* FollowerCell.swift */; };
+		CF9968982530DFAF00F7A7BF /* GFAvatarImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9968972530DFAF00F7A7BF /* GFAvatarImageView.swift */; };
 		CF9D7532252B762B003AA89C /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D7531252B762B003AA89C /* GFTextField.swift */; };
 		CFFD6145252390CC00B5E520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6144252390CC00B5E520 /* AppDelegate.swift */; };
 		CFFD6147252390CC00B5E520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6146252390CC00B5E520 /* SceneDelegate.swift */; };
@@ -56,6 +58,8 @@
 		CF99687A253042A900F7A7BF /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		CF99688025304A2000F7A7BF /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 		CF9968892530D9D000F7A7BF /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
+		CF99688F2530DF3200F7A7BF /* FollowerCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerCell.swift; sourceTree = "<group>"; };
+		CF9968972530DFAF00F7A7BF /* GFAvatarImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFAvatarImageView.swift; sourceTree = "<group>"; };
 		CF9D7531252B762B003AA89C /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		CFFD6141252390CB00B5E520 /* GITFollewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GITFollewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFD6144252390CC00B5E520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -107,12 +111,14 @@
 		CF99685D2530384100F7A7BF /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				CF99688E2530DF1700F7A7BF /* cells */,
 				CF9968522530305C00F7A7BF /* GFAlertViewController.swift */,
 				CF8A34C82524FA1100DA9554 /* GFButton.swift */,
 				CF9D7531252B762B003AA89C /* GFTextField.swift */,
 				CF99684825302E4A00F7A7BF /* GFTitleLabel.swift */,
 				CF99684D25302F9F00F7A7BF /* GFBodyLabel.swift */,
 				CF99686625303D9200F7A7BF /* GFAlertContainerView.swift */,
+				CF9968972530DFAF00F7A7BF /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
@@ -159,6 +165,14 @@
 				CF9968892530D9D000F7A7BF /* ErrorMessage.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		CF99688E2530DF1700F7A7BF /* cells */ = {
+			isa = PBXGroup;
+			children = (
+				CF99688F2530DF3200F7A7BF /* FollowerCell.swift */,
+			);
+			path = cells;
 			sourceTree = "<group>";
 		};
 		CFFD6138252390CB00B5E520 = {
@@ -330,6 +344,7 @@
 				CF8A34C92524FA1100DA9554 /* GFButton.swift in Sources */,
 				CFFD6145252390CC00B5E520 /* AppDelegate.swift in Sources */,
 				CF99687B253042A900F7A7BF /* User.swift in Sources */,
+				CF9968902530DF3200F7A7BF /* FollowerCell.swift in Sources */,
 				CF9968532530305C00F7A7BF /* GFAlertViewController.swift in Sources */,
 				CF996873253041DF00F7A7BF /* Follower.swift in Sources */,
 				CFFD61842523961F00B5E520 /* SearchViewController.swift in Sources */,
@@ -338,6 +353,7 @@
 				CF99688A2530D9D000F7A7BF /* ErrorMessage.swift in Sources */,
 				CF99688125304A2000F7A7BF /* NetworkManager.swift in Sources */,
 				CF9D7532252B762B003AA89C /* GFTextField.swift in Sources */,
+				CF9968982530DFAF00F7A7BF /* GFAvatarImageView.swift in Sources */,
 				CF99684E25302F9F00F7A7BF /* GFBodyLabel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
