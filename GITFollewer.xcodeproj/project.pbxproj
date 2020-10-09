@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		CF8A34C92524FA1100DA9554 /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8A34C82524FA1100DA9554 /* GFButton.swift */; };
+		CF996844252FA06700F7A7BF /* FollowerListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF996843252FA06700F7A7BF /* FollowerListViewController.swift */; };
 		CF9D7532252B762B003AA89C /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF9D7531252B762B003AA89C /* GFTextField.swift */; };
 		CFFD6145252390CC00B5E520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6144252390CC00B5E520 /* AppDelegate.swift */; };
 		CFFD6147252390CC00B5E520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6146252390CC00B5E520 /* SceneDelegate.swift */; };
@@ -37,6 +38,7 @@
 
 /* Begin PBXFileReference section */
 		CF8A34C82524FA1100DA9554 /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
+		CF996843252FA06700F7A7BF /* FollowerListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowerListViewController.swift; sourceTree = "<group>"; };
 		CF9D7531252B762B003AA89C /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		CFFD6141252390CB00B5E520 /* GITFollewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GITFollewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFD6144252390CC00B5E520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -106,6 +108,7 @@
 				CFFD614F252390CD00B5E520 /* LaunchScreen.storyboard */,
 				CFFD6152252390CD00B5E520 /* Info.plist */,
 				CFFD61832523961F00B5E520 /* SearchViewController.swift */,
+				CF996843252FA06700F7A7BF /* FollowerListViewController.swift */,
 				CFFD61882523966000B5E520 /* FavoritesListViewController.swift */,
 			);
 			path = GITFollewer;
@@ -240,6 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CF996844252FA06700F7A7BF /* FollowerListViewController.swift in Sources */,
 				CFFD61892523966000B5E520 /* FavoritesListViewController.swift in Sources */,
 				CFFD6149252390CC00B5E520 /* ViewController.swift in Sources */,
 				CF8A34C92524FA1100DA9554 /* GFButton.swift in Sources */,
