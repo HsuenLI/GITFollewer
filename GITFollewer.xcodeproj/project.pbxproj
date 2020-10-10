@@ -100,6 +100,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CF98A123253228F500BC527A /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				CF8A34C82524FA1100DA9554 /* GFButton.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		CF98A124253228FE00BC527A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				CF99686625303D9200F7A7BF /* GFAlertContainerView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CF98A1252532290C00BC527A /* TextFields */ = {
+			isa = PBXGroup;
+			children = (
+				CF9D7531252B762B003AA89C /* GFTextField.swift */,
+			);
+			path = TextFields;
+			sourceTree = "<group>";
+		};
+		CF98A1262532291D00BC527A /* ImageViews */ = {
+			isa = PBXGroup;
+			children = (
+				CF9968972530DFAF00F7A7BF /* GFAvatarImageView.swift */,
+			);
+			path = ImageViews;
+			sourceTree = "<group>";
+		};
+		CF98A1272532292500BC527A /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				CF99684825302E4A00F7A7BF /* GFTitleLabel.swift */,
+				CF99684D25302F9F00F7A7BF /* GFBodyLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		CF98A1282532292F00BC527A /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				CF9968522530305C00F7A7BF /* GFAlertViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
 		CF99685C2530380B00F7A7BF /* Screens */ = {
 			isa = PBXGroup;
 			children = (
@@ -113,14 +162,13 @@
 		CF99685D2530384100F7A7BF /* Custom Views */ = {
 			isa = PBXGroup;
 			children = (
+				CF98A1282532292F00BC527A /* ViewControllers */,
+				CF98A1272532292500BC527A /* Labels */,
+				CF98A1262532291D00BC527A /* ImageViews */,
+				CF98A1252532290C00BC527A /* TextFields */,
+				CF98A124253228FE00BC527A /* Views */,
+				CF98A123253228F500BC527A /* Buttons */,
 				CF99688E2530DF1700F7A7BF /* cells */,
-				CF9968522530305C00F7A7BF /* GFAlertViewController.swift */,
-				CF8A34C82524FA1100DA9554 /* GFButton.swift */,
-				CF9D7531252B762B003AA89C /* GFTextField.swift */,
-				CF99684825302E4A00F7A7BF /* GFTitleLabel.swift */,
-				CF99684D25302F9F00F7A7BF /* GFBodyLabel.swift */,
-				CF99686625303D9200F7A7BF /* GFAlertContainerView.swift */,
-				CF9968972530DFAF00F7A7BF /* GFAvatarImageView.swift */,
 			);
 			path = "Custom Views";
 			sourceTree = "<group>";
