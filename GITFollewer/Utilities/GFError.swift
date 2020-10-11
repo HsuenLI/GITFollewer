@@ -1,5 +1,5 @@
 //
-//  ErrorMessage.swift
+//  GFError.swift
 //  GITFollewer
 //
 //  Created by Hsuen-Ju Li on 2020/10/10.
