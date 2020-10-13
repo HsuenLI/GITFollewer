@@ -19,6 +19,7 @@ class GFItemInfoView: UIView {
     
     override init(frame: CGRect) {
         super.init(frame: frame)
+        configure()
     }
     
     required init?(coder: NSCoder) {
@@ -45,10 +46,10 @@ class GFItemInfoView: UIView {
             titleLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
             titleLabel.heightAnchor.constraint(equalToConstant:18),
             
-            countLabel.centerYAnchor.constraint(equalTo: symbolImageView.bottomAnchor),
+            countLabel.centerYAnchor.constraint(equalTo: symbolImageView.bottomAnchor, constant: 12),
             countLabel.leadingAnchor.constraint(equalTo: leadingAnchor),
             countLabel.trailingAnchor.constraint(equalTo: trailingAnchor),
-            countLabel.heightAnchor.constraint(equalToConstant:18),
+            countLabel.heightAnchor.constraint(equalToConstant: 18),
         ])
     }
     
