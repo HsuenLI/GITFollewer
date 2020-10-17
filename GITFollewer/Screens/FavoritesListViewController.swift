@@ -76,10 +76,7 @@ extension FavoritesListViewController: UITableViewDelegate, UITableViewDataSourc
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let favorite = favorites[indexPath.item]
-        let destinalVC = FollowerListViewController()
-        destinalVC.username = favorite.login
-        destinalVC.title = favorite.login
-        
+        let destinalVC = FollowerListViewController(username: favorite.login)
         navigationController?.pushViewController(destinalVC, animated: true)
     }
     
