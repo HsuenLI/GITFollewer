@@ -9,7 +9,7 @@ import Foundation
 
 extension Date {
     
-    func convertToMonthFormat() -> String {
+    func convertToMonthYearFormat() -> String {
         let dateFomatter = DateFormatter()
         dateFomatter.dateFormat = "MMM yyyy"
         dateFomatter.locale = Locale(identifier: "zh_Hant_TW")
