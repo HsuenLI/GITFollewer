@@ -2,7 +2,7 @@
 //  FollowerCell.swift
 //  GITFollewer
 //
-//  Created by Hsuen-Ju Li on 2020/10/10.
+//  Created by Hsuen-Ju Li on 2020/10/17.
 //
 
 import UIKit
@@ -26,7 +26,14 @@ class FollowerCell: UICollectionViewCell{
     
     func set(follower: Follower) {
         usernameLabel.text = follower.login
-        avatarImageView.downloadImage(from: follower.avatarUrl)
+        downloadAvatarImage(urlString: follower.avatarUrl)
+    }
+    
+    func downloadAvatarImage(urlString: String) {
+        NetworkManager.shared.downloadImage(from: urlString) {[weak self] (avatarImage) in
+            guard let self = self else { return }
+            self.avatarImageView.image = avatarImage
+        }
     }
     
     private func configure() {
