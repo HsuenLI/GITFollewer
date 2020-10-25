@@ -37,6 +37,7 @@
 		CFD16A992536125A0030EB45 /* GFItemInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD16A982536125A0030EB45 /* GFItemInfoViewController.swift */; };
 		CFD16A9E253614E60030EB45 /* GFRepoItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD16A9D253614E60030EB45 /* GFRepoItemViewController.swift */; };
 		CFD16AA3253616830030EB45 /* GFFollowersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD16AA2253616830030EB45 /* GFFollowersViewController.swift */; };
+		CFD7C1242545456F00560FA2 /* UIView+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFD7C1232545456F00560FA2 /* UIView+Ext.swift */; };
 		CFFD6145252390CC00B5E520 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6144252390CC00B5E520 /* AppDelegate.swift */; };
 		CFFD6147252390CC00B5E520 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CFFD6146252390CC00B5E520 /* SceneDelegate.swift */; };
 		CFFD614E252390CD00B5E520 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFFD614D252390CD00B5E520 /* Assets.xcassets */; };
@@ -93,6 +94,7 @@
 		CFD16A982536125A0030EB45 /* GFItemInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFItemInfoViewController.swift; sourceTree = "<group>"; };
 		CFD16A9D253614E60030EB45 /* GFRepoItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFRepoItemViewController.swift; sourceTree = "<group>"; };
 		CFD16AA2253616830030EB45 /* GFFollowersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFFollowersViewController.swift; sourceTree = "<group>"; };
+		CFD7C1232545456F00560FA2 /* UIView+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Ext.swift"; sourceTree = "<group>"; };
 		CFFD6141252390CB00B5E520 /* GITFollewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GITFollewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFFD6144252390CC00B5E520 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CFFD6146252390CC00B5E520 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -225,6 +227,7 @@
 				CF996857253035FE00F7A7BF /* UIViewController+Ext.swift */,
 				CF7D4BEE253A9A7C0032FDA5 /* Date+Ext.swift */,
 				CF7D4BF3253A9A9F0032FDA5 /* String+Ext.swift */,
+				CFD7C1232545456F00560FA2 /* UIView+Ext.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -481,6 +484,7 @@
 				CF9D7532252B762B003AA89C /* GFTextField.swift in Sources */,
 				CF0047F42534CAB900848B04 /* GFItemInfoView.swift in Sources */,
 				CF9968982530DFAF00F7A7BF /* GFAvatarImageView.swift in Sources */,
+				CFD7C1242545456F00560FA2 /* UIView+Ext.swift in Sources */,
 				CF99684E25302F9F00F7A7BF /* GFBodyLabel.swift in Sources */,
 				CF7D4C04253AD2850032FDA5 /* GFTabBarController.swift in Sources */,
 			);
